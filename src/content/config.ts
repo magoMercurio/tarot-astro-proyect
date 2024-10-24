@@ -18,7 +18,7 @@ const tarotkeys = defineCollection({
 	schema: z.object({
 		nombre: z.string(),
 		descripcion: z.string(),
-		numero: z.number(),
+		numero: z.string(),
 		letra: z.string(),
 		nombreLetra: z.string(),
 		significadoLetra: z.string(),
